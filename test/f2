@@ -222,6 +222,28 @@ var getOutput = function(cnt1, cnt2){
     return getLines(linesDiff);
 };
 
-module.exports = getOutputs;
-var a = 1;
-var b = 2;
+module.exports = getOutput;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;

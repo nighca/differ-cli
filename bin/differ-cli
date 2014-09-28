@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+var fileDiffer = require('../lib/file-differ'),
+    info = require('../package.json')
+
+var file1 = process.argv[2],
+    file2 = process.argv[3];
+
+if(file1 && file2){
+    fileDiffer(file1, file2);
+}else{
+    console.log([
+        ['diff-cli', 'v' + info.version],
+        ['Usage:', 'differ-cli', '<file1>', '<file2>']
+    ].map(function(line){
+        return line.join(' ');
+    }).join('\n'));
+}
