@@ -1,6 +1,6 @@
 {
   "name": "differ-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "differ realized by javascript in cli",
   "main": "lib/file-differ.js",
   "bin": "./bin/differ-cli",
