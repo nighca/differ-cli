@@ -17,3 +17,7 @@ differ in cli
 		var differ = require('differ-cli')
 
 		differ('file-path1', 'file-path2');
+
+### Result
+
+![diff result](http://document.qiniudn.com/differ.JPG)
