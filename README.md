@@ -1,8 +1,9 @@
 differ-cli
 ==========
 
-differ in cli
+Differ in cli, based on nodejs.
 
+Driven by powerful diff engine — [universal diff](https://github.com/nighca/universal-diff).
 
 ### Usage
 
