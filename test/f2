@@ -206,8 +206,8 @@ var diffInline = function(lines){
 
             curr.cnt = originArr;
             next.cnt = targetArr;
-        }else ifelse(typeof line.cnt === 'string'){
-            line.cnt = [{
+        }else if(typeof line.content === 'string'){
+            line.content = [{
                 type: 'normal',
                 cnt: line.cnt
             }];
@@ -222,28 +222,5 @@ var getOutput = function(cnt1, cnt2){
     return getLines(linesDiff);
 };
 
-module.exports = getOutput;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-;
+module.exports = getOutput();
+return 1;
