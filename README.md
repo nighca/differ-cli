@@ -16,8 +16,10 @@ differ in cli
 
 		var differ = require('differ-cli')
 
-		differ('file-path1', 'file-path2');
+		differ('path/of/file1', 'path/of/file2', function(err, result){
+			!err && console.log(result);
+		});
 
 ### Result
 
-![diff result](http://document.qiniudn.com/differ.JPG)
+![diff result](http://document.qiniudn.com/differ.jpg)
