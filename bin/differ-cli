@@ -9,7 +9,7 @@ var file1 = process.argv[2],
 if(file1 && file2){
     fileDiffer(file1, file2, function(err, result){
     	if(err){
-    		console.error(err);
+    		console.error(err.stack || err)
     	}else{
     		console.log(result);
     	}
