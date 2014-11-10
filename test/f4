@@ -1,2 +1,7 @@
-=
-x
+var a = 1,
+	b = 1,
+	sum = a + b;
+
+module.exports = function(){
+	return sum;
+};
